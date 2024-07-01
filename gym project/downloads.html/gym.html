@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talha's Fitness</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai';
+        font-size: 22px;
+        background: url('gympic2.jpg');
+        /* background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        background-attachment: fixed; */
+        /* height: 200px;
+        width: 200px; */
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 34px;
+    }
+
+    .left img {
+        display: block;
+        margin: auto;
+        width: 62px;
+    }
+
+    .left div {
+        line-height: 34px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 53%;
+        margin: 20px auto;
+    }
+
+    .right {
+        position: absolute;
+        top: 20px;
+        right: 34px;
+        display: inline-block;
+    }
+
+    /* .navbar {
+        display: inline-block;
+    } */
+
+    .navbar li {
+        display: inline-block;
+        font: 25px;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 33px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai';
+        margin: 0px 5px;
+        background-color: black;
+        color: white;
+        padding: 0px 2px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(62, 59, 59);
+    }
+
+    .container {
+        border: 2px solid #000000;
+        color: white;
+        margin: 72px 69px;
+        padding: 44px 85px;
+        width: 33%;
+        border-radius: 37px;
+        font-size: xx-small;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 321px;
+        padding: 7px;
+        border: 2px solid black;
+        margin: 5px auto;
+        font-size: 16px;
+        border-radius: 12px;
+        font-family: 'Baloo Bhai';
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 338px;
+        margin: 12px auto;
+        padding: 3px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="dd.jpeg" alt="">
+            <div>Talha Fitness</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best gym of Karachi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
